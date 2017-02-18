@@ -11,8 +11,6 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 
 ## The List
 
-The following is a list of websites built using blogdown
-
 [yihui.name](https://yihui.name/) | Yihui Xie, software engineer at [RStudio](https://www.rstudio.com), author of Knitr, bookdown, blogdown and others
 
 [blog.sellorm.com](http://blog.sellorm.com) | Data Engineering, R in Production, Technology stuff.
