@@ -14,3 +14,15 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 [yihui.name](https://yihui.name/) | Yihui Xie, software engineer at [RStudio](https://www.rstudio.com), author of Knitr, bookdown, blogdown and others
 
 [blog.sellorm.com](http://blog.sellorm.com) | Data Engineering, R in Production, Technology stuff.
+
+[gresch.github.io](https://gresch.github.io/) | A Strategy Consultant Turning into a Data Scientist.
+
+[graemeleehickey.github.io](https://graemeleehickey.github.io/) | Graeme L. Hickey, Research Associate in Biostatistics
+
+[ismayc.github.io/soc301_s2017](https://ismayc.github.io/soc301_s2017/) | Chester Ismay's Social Statistics Course
+
+[www.brodrigues.co](http://www.brodrigues.co/) | Bruno Rodrigues, Econometrics and Free Software
+
+[simecek.github.io/blog](https://simecek.github.io/blog/) | Petr Simecek's blog
+
+[proquestionasker.github.io](https://proquestionasker.github.io/) | Amber Thomas, researcher, communicator and aspiring data scientist
