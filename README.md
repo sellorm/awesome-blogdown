@@ -28,3 +28,5 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 [proquestionasker.github.io](https://proquestionasker.github.io/) | Amber Thomas, researcher, communicator and aspiring data scientist
 
 [kevinfw.com](http://kevinfw.com/) | Kevin Wong, grad student in predictive analytics
+
+[tclavelle.github.io](https://tclavelle.github.io/) | Tyler Clavelle, environmental data scientist
