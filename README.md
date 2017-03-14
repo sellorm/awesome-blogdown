@@ -17,7 +17,7 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 
 [gresch.github.io](https://gresch.github.io/) | A Strategy Consultant Turning into a Data Scientist
 
-[graemeleehickey.github.io](https://graemeleehickey.github.io/) | Graeme L. Hickey, Research Associate in Biostatistics
+[glhickey.com](http://glhickey.com/) | Graeme L. Hickey, Research Associate in Biostatistics
 
 [ismayc.github.io/soc301_s2017](https://ismayc.github.io/soc301_s2017/) | Chester Ismay's Social Statistics Course
 
@@ -30,3 +30,5 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 [kevinfw.com](http://kevinfw.com/) | Kevin Wong, grad student in predictive analytics
 
 [tclavelle.github.io](https://tclavelle.github.io/) | Tyler Clavelle, environmental data scientist
+
+[mrgsolve.github.io](https://mrgsolve.github.io/) | Metrum Research Group's mrgsolve package for R
