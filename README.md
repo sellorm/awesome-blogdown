@@ -32,3 +32,5 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 [tclavelle.github.io](https://tclavelle.github.io/) | Tyler Clavelle, environmental data scientist
 
 [mrgsolve.github.io](https://mrgsolve.github.io/) | Metrum Research Group's mrgsolve package for R
+
+[thedatacollective.com.au](http://www.thedatacollective.com.au/) | Dan Wilson, Australian Data Scientist's, blog on open data sets
