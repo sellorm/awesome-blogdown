@@ -34,3 +34,5 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 [mrgsolve.github.io](https://mrgsolve.github.io/) | Metrum Research Group's mrgsolve package for R
 
 [thedatacollective.com.au](http://www.thedatacollective.com.au/) | Dan Wilson, Australian Data Scientist's, blog on open data sets
+
+[brfry.github.io](https://brfry.github.io/) | Beck Frydenborg, environmental consultant and ecolgist
