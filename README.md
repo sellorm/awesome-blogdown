@@ -36,3 +36,5 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 [thedatacollective.com.au](http://www.thedatacollective.com.au/) | Dan Wilson, Australian Data Scientist's, blog on open data sets
 
 [brfry.github.io](https://brfry.github.io/) | Beck Frydenborg, environmental consultant and ecolgist
+
+[gestaltrevision.be/s/pietermoors](http://www.gestaltrevision.be/s/pietermoors) | Pieter Moors, postdoctoral researcher at the GestaltReVision lab at the KU Leuven.
