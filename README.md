@@ -38,3 +38,5 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 [brfry.github.io](https://brfry.github.io/) | Beck Frydenborg, environmental consultant and ecolgist
 
 [gestaltrevision.be/s/pietermoors](http://www.gestaltrevision.be/s/pietermoors) | Pieter Moors, postdoctoral researcher at the GestaltReVision lab at the KU Leuven.
+
+[r-podcast.org](https://www.r-podcast.org) | Eric Nantz, research scientist in life sciences and creator/host of the R-Podcast.
