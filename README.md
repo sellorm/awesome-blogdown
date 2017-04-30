@@ -11,30 +11,34 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 
 ## The List
 
-[yihui.name](https://yihui.name/) | Yihui Xie, software engineer at [RStudio](https://www.rstudio.com), author of Knitr, bookdown, blogdown and others
+[yihui.name](https://yihui.name/) | Yihui Xie, software engineer at [RStudio](https://www.rstudio.com), author of Knitr, bookdown, blogdown and others.
 
-[blog.sellorm.com](http://blog.sellorm.com) | Data Engineering, R in Production, Technology stuff
+[blog.sellorm.com](http://blog.sellorm.com) | Data Engineering, R in Production, technology stuff.
 
-[gresch.github.io](https://gresch.github.io/) | A Strategy Consultant Turning into a Data Scientist
+[gresch.github.io](https://gresch.github.io/) | A Strategy Consultant Turning into a Data Scientist.
 
-[glhickey.com](http://glhickey.com/) | Graeme L. Hickey, Research Associate in Biostatistics
+[glhickey.com](http://glhickey.com/) | Graeme L. Hickey, Research Associate in Biostatistics.
 
-[ismayc.github.io/soc301_s2017](https://ismayc.github.io/soc301_s2017/) | Chester Ismay's Social Statistics Course
+[ismayc.github.io/soc301_s2017](https://ismayc.github.io/soc301_s2017/) | Chester Ismay's Social Statistics Course.
 
-[www.brodrigues.co](http://www.brodrigues.co/) | Bruno Rodrigues, Econometrics and Free Software
+[www.brodrigues.co](http://www.brodrigues.co/) | Bruno Rodrigues, Econometrics and Free Software.
 
-[simecek.github.io/blog](https://simecek.github.io/blog/) | Petr Simecek's blog
+[simecek.github.io/blog](https://simecek.github.io/blog/) | Petr Simecek's blog.
 
-[proquestionasker.github.io](https://proquestionasker.github.io/) | Amber Thomas, researcher, communicator and aspiring data scientist
+[proquestionasker.github.io](https://proquestionasker.github.io/) | Amber Thomas, researcher, communicator and aspiring data scientist.
 
-[kevinfw.com](http://kevinfw.com/) | Kevin Wong, grad student in predictive analytics
+[kevinfw.com](http://kevinfw.com/) | Kevin Wong, grad student in predictive analytics.
 
-[tclavelle.github.io](https://tclavelle.github.io/) | Tyler Clavelle, environmental data scientist
+[tclavelle.github.io](https://tclavelle.github.io/) | Tyler Clavelle, environmental data scientist.
 
-[mrgsolve.github.io](https://mrgsolve.github.io/) | Metrum Research Group's mrgsolve package for R
+[mrgsolve.github.io](https://mrgsolve.github.io/) | Metrum Research Group's mrgsolve package for R.
 
-[thedatacollective.com.au](http://www.thedatacollective.com.au/) | Dan Wilson, Australian Data Scientist's, blog on open data sets
+[thedatacollective.com.au](http://www.thedatacollective.com.au/) | Dan Wilson, Australian Data Scientist's, blog on open data sets.
 
 [brfry.github.io](https://brfry.github.io/) | Beck Frydenborg, environmental consultant and ecolgist
 
 [gestaltrevision.be/s/pietermoors](http://www.gestaltrevision.be/s/pietermoors) | Pieter Moors, postdoctoral researcher at the GestaltReVision lab at the KU Leuven.
+
+[robjhyndman.com](http://robjhyndman.com/) | Rob J Hyndman is Professor of Statistics at Monash University, Australia.
+
+[Forwards](https://forwards.github.io/) | Forwards is an R Foundation taskforce on women and other under-represented groups.
