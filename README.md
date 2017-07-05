@@ -44,3 +44,29 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 [robjhyndman.com](http://robjhyndman.com/) | Rob J Hyndman is Professor of Statistics at Monash University, Australia.
 
 [Forwards](https://forwards.github.io/) | Forwards is an R Foundation taskforce on women and other under-represented groups.
+
+[wrshoemaker.github.io](https://wrshoemaker.github.io/) | Will Shoemaker, Microbial evolution and ecology
+
+[apreshill.rbind.io](https://apreshill.rbind.io/) | Alison Presmanes Hill, Assistant Professor Oregon Health & Science University
+
+[mattcraddock.com](https://www.mattcraddock.com/) | Time-frequency Transform - Matt Craddock's blog about cognitive neuroscience, psychology, and statistics
+
+[drizopoulos.com](http://www.drizopoulos.com/)| Dimitris Rizopoulos, Associate Professor of Biostatistics Erasmus University Medical Center
+
+[selbydavid.com](http://selbydavid.com/) | Tea & Stats, ata science with david selby
+
+[ildiczeller.com](https://www.ildiczeller.com/) | Ildi Czeller's blog
+
+[ewenme.rbind.io](http://ewenme.rbind.io/) | Ewen Henderson's blog
+
+[znmeb.mobi](https://www.znmeb.mobi/) | Borasky Research Journal
+
+[livefreeordichotomize.com](http://livefreeordichotomize.com/) | Live Free or Dichotomize
+
+[kocabiyik.github.io](https://kocabiyik.github.io/) | Imran's blog about data viz
+
+[enpiar.com](http://enpiar.com/) | Neal Richardson's blog
+
+[juliasilge.com](https://juliasilge.com/) | Julia Silge, data scientist at Stack Overflow
+
+[romain.rbind.io](https://romain.rbind.io/) | The blog of Romain François
