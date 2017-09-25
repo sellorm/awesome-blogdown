@@ -74,3 +74,5 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 [maraaverick.rbind.io](https://maraaverick.rbind.io/) | Mara Averick's blog 
 
 [dataviz.andrewheiss.com](https://dataviz.andrewheiss.com/) | Business school course on data visualization by Andrew Heiss, visiting professor at Brigham Young University
+
+[blog.jemu.name](https://blog.jemu.name) | The Blog [Jemu](https://github.com/jemus42).
