@@ -70,3 +70,5 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 [juliasilge.com](https://juliasilge.com/) | Julia Silge, data scientist at Stack Overflow
 
 [romain.rbind.io](https://romain.rbind.io/) | The blog of Romain François
+
+[maraaverick.rbind.io](https://maraaverick.rbind.io/) | Mara Averick's blog 
