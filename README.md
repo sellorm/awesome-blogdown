@@ -76,3 +76,5 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 [dataviz.andrewheiss.com](https://dataviz.andrewheiss.com/) | Business school course on data visualization by Andrew Heiss, visiting professor at Brigham Young University
 
 [blog.jemu.name](https://blog.jemu.name) | The Blog [Jemu](https://github.com/jemus42).
+
+[onceupondata.com](http://www.onceupondata.com/) | Omayma's blog
