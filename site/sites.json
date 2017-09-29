@@ -1,0 +1,176 @@
+[{
+		"name": "yihui.name",
+		"url": "https://yihui.name/",
+		"desc": "Yihui Xie, software engineer at RStudio, author of Knitr, bookdown, blogdown and others."
+	},
+	{
+		"name": "blog.sellorm.com",
+		"url": "http://blog.sellorm.com",
+		"desc": "Data Engineering, R in Production, technology stuff."
+	},
+	{
+		"name": "gresch.github.io",
+		"url": "https://gresch.github.io/",
+		"desc": "A Strategy Consultant Turning into a Data Scientist."
+	},
+	{
+		"name": "glhickey.com",
+		"url": "http://glhickey.com/",
+		"desc": "Graeme L. Hickey, Research Associate in Biostatistics."
+	},
+	{
+		"name": "ismayc.github.io/soc301_s2017",
+		"url": "https://ismayc.github.io/soc301_s2017/",
+		"desc": "Chester Ismay's Social Statistics Course."
+	},
+	{
+		"name": "www.brodrigues.co",
+		"url": "http://www.brodrigues.co/",
+		"desc": "Bruno Rodrigues, Econometrics and Free Software."
+	},
+	{
+		"name": "simecek.github.io/blog",
+		"url": "https://simecek.github.io/blog/",
+		"desc": "Petr Simecek's blog."
+	},
+	{
+		"name": "proquestionasker.github.io",
+		"url": "https://proquestionasker.github.io/",
+		"desc": "Amber Thomas, researcher, communicator and aspiring data scientist."
+	},
+	{
+		"name": "kevinfw.com",
+		"url": "http://kevinfw.com/",
+		"desc": "Kevin Wong, grad student in predictive analytics."
+	},
+	{
+		"name": "tclavelle.github.io",
+		"url": "https://tclavelle.github.io/",
+		"desc": "Tyler Clavelle, environmental data scientist."
+	},
+	{
+		"name": "mrgsolve.github.io",
+		"url": "https://mrgsolve.github.io/",
+		"desc": "Metrum Research Group's mrgsolve package for R."
+	},
+	{
+		"name": "thedatacollective.com.au",
+		"url": "http://www.thedatacollective.com.au/",
+		"desc": "Dan Wilson, Australian Data Scientist's, blog on open data sets."
+	},
+	{
+		"name": "brfry.github.io",
+		"url": "https://brfry.github.io/",
+		"desc": "Beck Frydenborg, environmental consultant and ecolgist"
+	},
+	{
+		"name": "gestaltrevision.be/s/pietermoors",
+		"url": "http://www.gestaltrevision.be/s/pietermoors",
+		"desc": "Pieter Moors, postdoctoral researcher at the GestaltReVision lab at the KU Leuven."
+	},
+	{
+		"name": "r-podcast.org",
+		"url": "https://www.r-podcast.org",
+		"desc": "Eric Nantz, research scientist in life sciences and creator/host of the R-Podcast."
+	},
+	{
+		"name": "robjhyndman.com",
+		"url": "http://robjhyndman.com/",
+		"desc": "Rob J Hyndman is Professor of Statistics at Monash University, Australia."
+	},
+	{
+		"name": "Forwards",
+		"url": "https://forwards.github.io/",
+		"desc": "Forwards is an R Foundation taskforce on women and other under-represented groups."
+	},
+	{
+		"name": "wrshoemaker.github.io",
+		"url": "https://wrshoemaker.github.io/",
+		"desc": "Will Shoemaker, Microbial evolution and ecology"
+	},
+	{
+		"name": "apreshill.rbind.io",
+		"url": "https://apreshill.rbind.io/",
+		"desc": "Alison Presmanes Hill, Assistant Professor Oregon Health & Science University"
+	},
+	{
+		"name": "mattcraddock.com",
+		"url": "https://www.mattcraddock.com/",
+		"desc": "Time-frequency Transform - Matt Craddock's blog about cognitive neuroscience, psychology, and statistics"
+	},
+	{
+		"name": "drizopoulos.com",
+		"url": "http://www.drizopoulos.com/",
+		"desc": "Dimitris Rizopoulos, Associate Professor of Biostatistics Erasmus University Medical Center"
+	},
+	{
+		"name": "selbydavid.com",
+		"url": "http://selbydavid.com/",
+		"desc": "Tea & Stats, ata science with david selby"
+	},
+	{
+		"name": "ildiczeller.com",
+		"url": "https://www.ildiczeller.com/",
+		"desc": "Ildi Czeller's blog"
+	},
+	{
+		"name": "ewenme.rbind.io",
+		"url": "http://ewenme.rbind.io/",
+		"desc": "Ewen Henderson's blog"
+	},
+	{
+		"name": "znmeb.mobi",
+		"url": "https://www.znmeb.mobi/",
+		"desc": "Borasky Research Journal"
+	},
+	{
+		"name": "livefreeordichotomize.com",
+		"url": "http://livefreeordichotomize.com/",
+		"desc": "Live Free or Dichotomize"
+	},
+	{
+		"name": "kocabiyik.github.io",
+		"url": "https://kocabiyik.github.io/",
+		"desc": "Imran's blog about data viz"
+	},
+	{
+		"name": "enpiar.com",
+		"url": "http://enpiar.com/",
+		"desc": "Neal Richardson's blog"
+	},
+	{
+		"name": "juliasilge.com",
+		"url": "https://juliasilge.com/",
+		"desc": "Julia Silge, data scientist at Stack Overflow"
+	},
+	{
+		"name": "romain.rbind.io",
+		"url": "https://romain.rbind.io/",
+		"desc": "The blog of Romain François"
+	},
+	{
+		"name": "maraaverick.rbind.io",
+		"url": "https://maraaverick.rbind.io/",
+		"desc": "Mara Averick's blog"
+	},
+	{
+		"name": "dataviz.andrewheiss.com",
+		"url": "https://dataviz.andrewheiss.com/",
+		"desc": "Business school course on data visualization by Andrew Heiss, visiting professor at Brigham Young University"
+	},
+	{
+		"name": "blog.jemu.name",
+		"url": "https://blog.jemu.name",
+		"desc": "The Blog Jemu"
+	},
+	{
+		"name": "onceupondata.com",
+		"url": "http://www.onceupondata.com",
+		"desc": "Omayma's blog"
+	},
+	{
+		"name": "tanjakec.github.io",
+		"url": "https://tanjakec.github.io",
+		"desc": "The blog of Tatjana Kecojevic, statistician and founder of RLadies-Manchester"
+	}
+]

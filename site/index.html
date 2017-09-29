@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Awesome Blogdown</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Exo+2:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <style>
+  .sites-table {
+    width: auto;
+  }
+  </style>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+  // shuffle from - https://www.frankmitchell.org/2015/01/fisher-yates/
+  function shuffle (array) {
+    var i = 0
+      , j = 0
+      , temp = null
+
+    for (i = array.length - 1; i > 0; i -= 1) {
+      j = Math.floor(Math.random() * (i + 1))
+      temp = array[i]
+      array[i] = array[j]
+      array[j] = temp
+    }
+  }
+
+  // Build table of sites based on json file
+  function buildTable() {
+
+    $.getJSON('sites.json', function(sites) {
+
+    shuffle(sites);
+      var html = "<thead><tr><td>Site</td><td>Description</td></tr></thead><tbody>";
+      for (var i = 0; i < sites.length; i += 1) {
+        // sites Div
+        html += "<tr><td><a href=\"" + sites[i].url + "\">";
+        html += sites[i].name + "</a></td><td>";
+        html += sites[i].desc + "</td></tr>";
+      }
+      html += "</tbody>";
+      document.getElementById('sites-table').innerHTML = html;
+    })
+  }
+
+
+  </script>
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+    <!-- title block -->
+    <div class="row">
+      <div class="column" style="margin-top: 10%">
+        <h4>Awesome Blogdown</h4>
+        <p>An awesome curated list of blogs built using blogdown.</p>
+      </div>
+    </div>
+
+    <!-- about block -->
+    <div class="row">
+      <div class="six columns">
+        <h5>About Blogdown</h5>
+        <p>The <a href="https://github.com/rstudio/blogdown">blogdown package</a> for R lets you create static websites using RMarkdown and Hugo. Sites are rendered to static files which simplifies publishing and hosting, at the same time as allowing you to easily version control your site.</p>
+      </div>
+      <div class="six columns">
+        <h5>Contributing to the list</h5>
+        <p>If you want to add a site that uses blogdown to this list, follow the <a href="https://github.com/sellorm/awesome-blogdown">instructions over on github</a>. We'll confirm that it's using blogdown and merge the request. If you're not comfortable doing that, <a href="https://twitter.com/sellorm">find me on twitter</a> and let me know.</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- list block -->
+    <div class="row">
+      <div class="eight columns" id="list"><h5>The List</h5></div>
+      <div class="four columns">
+        <form>
+          <input name="filter" type="search" placeholder="Filter" class="u-full-width">
+          <!-- <input class="button-primary clear" type="submit" value="Clear"> -->
+        </form>
+      </div>
+    </div>
+
+    <div class="row">
+      <table id='sites-table' class="u-full-width"></table>
+      <script>
+        buildTable();
+      </script>
+    </div>
+
+</div>
+  <script>
+  // search function
+  function search(search_val){
+      var suche = search_val.toLowerCase();
+      var table = document.getElementById("sites-table");
+      var cellNr = 1;
+      var ele;
+      for (var r = 1; r < table.rows.length; r++){
+          ele = table.rows[r].cells[cellNr].innerHTML.replace(/<[^>]+>/g,"");
+          if (ele.toLowerCase().indexOf(suche)>=0 ) {
+              table.rows[r].style.display = '';
+          } else {
+              table.rows[r].style.display = 'none';
+          }
+      }
+  }
+
+  // search script
+var search_input = document.querySelectorAll('input[name="filter"]')[0];
+var clear_button = document.querySelectorAll('input.clear')[0];
+
+if (search_input) {
+  if (search_input.value !== ''){
+      search(search_input.value);
+  }
+
+  search_input.addEventListener('keyup', function(e){
+      e.preventDefault();
+      search(search_input.value);
+  });
+
+  search_input.addEventListener('keypress', function(e){
+      if ( e.which == 13 ) {
+          e.preventDefault();
+      }
+  });
+}
+
+if (clear_button) {
+  clear_button.addEventListener('click', function(e){
+      search_input.value = '';
+      search('');
+  });
+}
+</script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
