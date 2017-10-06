@@ -77,4 +77,7 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 
 [blog.jemu.name](https://blog.jemu.name) | The Blog [Jemu](https://github.com/jemus42).
 
-[onceupondata.com](http://www.onceupondata.com/) | Omayma's blog
+[onceupondata.com](http://www.onceupondata.com/) | Omayma's blog 
+
+[aurora-mareviv.github.io](https://aurora-mareviv.github.io/) | Tales of R blog 
+
