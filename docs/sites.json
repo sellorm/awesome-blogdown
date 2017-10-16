@@ -131,7 +131,7 @@
 	{
 		"name": "kocabiyik.github.io",
 		"url": "https://kocabiyik.github.io/",
-		"desc": "Imran's blog about data viz"
+,		"desc": "Imran's blog about data viz"
 	},
 	{
 		"name": "enpiar.com",
@@ -182,5 +182,10 @@
                 "name": "jvera.netlify.com",
 		"url": "http://jvera.netlify.com",
 		"desc": "Swimming in the Data Lake, a blog by Jose Manuel Vera"
+	},
+        {
+		"name": "asimumba.rbind.io",
+		"url": "https://asimumba.rbind.io",
+		"desc": "Aaron Simumba's personal blog"
 	}
 ]
