@@ -19,6 +19,7 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 
 [glhickey.com](http://glhickey.com/) | Graeme L. Hickey, Research Associate in Biostatistics.
 
+
 [ismayc.github.io/soc301_s2017](https://ismayc.github.io/soc301_s2017/) | Chester Ismay's Social Statistics Course.
 
 [www.brodrigues.co](http://www.brodrigues.co/) | Bruno Rodrigues, Econometrics and Free Software.
@@ -26,6 +27,7 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 [simecek.github.io/blog](https://simecek.github.io/blog/) | Petr Simecek's blog.
 
 [proquestionasker.github.io](https://proquestionasker.github.io/) | Amber Thomas, researcher, communicator and aspiring data scientist.
+
 
 [kevinfw.com](http://kevinfw.com/) | Kevin Wong, grad student in predictive analytics.
 
@@ -82,3 +84,5 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 [aurora-mareviv.github.io](https://aurora-mareviv.github.io/) | Tales of R blog 
 
 [jvera.netlify.com](http://jvera.netlify.com) | Swimming in the Data Lake, a blog by Jose Manuel Vera
+
+[asimumba.rbind.io](https://asimumba.rbind.io) | Aaron Simumba's personal blog 
