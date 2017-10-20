@@ -86,3 +86,5 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 [jvera.netlify.com](http://jvera.netlify.com) | Swimming in the Data Lake, a blog by Jose Manuel Vera
 
 [asimumba.rbind.io](https://asimumba.rbind.io) | Aaron Simumba's personal blog 
+
+[zedr.rbind.io](https://zedr.rbind.io) | The ZedR website - Members blog

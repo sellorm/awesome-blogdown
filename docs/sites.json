@@ -187,5 +187,10 @@
 		"name": "asimumba.rbind.io",
 		"url": "https://asimumba.rbind.io",
 		"desc": "Aaron Simumba's personal blog"
+	},
+	{
+	  "name": "zedr.rbind.io",
+	  "url": "https://zedr.rbind.io",
+	  "desc": "The ZedR website - Members blog"
 	}
 ]
