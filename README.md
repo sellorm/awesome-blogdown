@@ -32,3 +32,8 @@ Have a look at the file to get an idea of the structure and what's been added fo
 The json file containing all the data is served from [http://awesome-blogdown.com/sites.json](http://awesome-blogdown.com/sites.json).
 
 If you do end up using it for something, let me know, I'd love to hear about it!
+
+## License
+
+MIT  © [Mark Sellors](http://sellorm.com)
+
