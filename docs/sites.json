@@ -173,6 +173,7 @@
 		"url": "https://tanjakec.github.io",
 		"desc": "The blog of Tatjana Kecojevic, statistician and founder of RLadies-Manchester"
 	},
+<<<<<<< HEAD
   {
     "name": "aurora-mareviv.github.io",
 		"url": "http://aurora-mareviv.github.io",
@@ -184,6 +185,19 @@
 		"desc": "Swimming in the Data Lake, a blog by Jose Manuel Vera"
 	},
   {
+=======
+        {
+                "name": "aurora-mareviv.github.io",
+		"url": "http://aurora-mareviv.github.io",
+		"desc": "Tales of R blog"
+	},
+        {
+                "name": "jvera.netlify.com",
+		"url": "http://jvera.netlify.com",
+		"desc": "Swimming in the Data Lake, a blog by Jose Manuel Vera"
+	},
+        {
+>>>>>>> e137159bcd1df06a142ce619ed55751e6894ed81
 		"name": "asimumba.rbind.io",
 		"url": "https://asimumba.rbind.io",
 		"desc": "Aaron Simumba's personal blog"
@@ -192,10 +206,14 @@
 	  "name": "zedr.rbind.io",
 	  "url": "https://zedr.rbind.io",
 	  "desc": "The ZedR website - Members blog"
+<<<<<<< HEAD
 	},
 	{
   "name": "p0bs",
   "url": "http://p0bs.com",
   "desc": "Robin Penfold's personal blog; the architecture of which is plagiarised from the great work of Amber Thomas"
 }
+=======
+	}
+>>>>>>> e137159bcd1df06a142ce619ed55751e6894ed81
 ]
