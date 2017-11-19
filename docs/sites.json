@@ -131,7 +131,7 @@
 	{
 		"name": "kocabiyik.github.io",
 		"url": "https://kocabiyik.github.io/",
-		"desc": "Imran's blog about data viz"
+			"desc": "Imran's blog about data viz"
 	},
 	{
 		"name": "enpiar.com",
@@ -173,9 +173,29 @@
 		"url": "https://tanjakec.github.io",
 		"desc": "The blog of Tatjana Kecojevic, statistician and founder of RLadies-Manchester"
 	},
+  {
+    "name": "aurora-mareviv.github.io",
+		"url": "http://aurora-mareviv.github.io",
+		"desc": "Tales of R blog"
+	},
+  {
+    "name": "jvera.netlify.com",
+		"url": "http://jvera.netlify.com",
+		"desc": "Swimming in the Data Lake, a blog by Jose Manuel Vera"
+	},
+  {
+		"name": "asimumba.rbind.io",
+		"url": "https://asimumba.rbind.io",
+		"desc": "Aaron Simumba's personal blog"
+	},
 	{
-    "name": "p0bs",
-    "url": "http://p0bs.com",
-    "desc": "Robin Penfold's personal blog; the architecture of which is plagiarised from the great work of Amber Thomas"
+	  "name": "zedr.rbind.io",
+	  "url": "https://zedr.rbind.io",
+	  "desc": "The ZedR website - Members blog"
+	},
+	{
+  "name": "p0bs",
+  "url": "http://p0bs.com",
+  "desc": "Robin Penfold's personal blog; the architecture of which is plagiarised from the great work of Amber Thomas"
 }
 ]
