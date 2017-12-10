@@ -207,5 +207,10 @@
     "name": "rladiesnyc.org",
     "url": "http://www.rladiesnyc.org/",
     "desc": "R-Ladies New York"
-  }
+  },
+	{
+    "name": "jasonbaik94.rbind.io",
+    "url": "https://jasonbaik94.rbind.io",
+    "desc": "Jason Baik's Data Science Journey"
+ }
 ]
