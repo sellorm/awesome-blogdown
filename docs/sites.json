@@ -212,5 +212,10 @@
     "name": "jasonbaik94.rbind.io",
     "url": "https://jasonbaik94.rbind.io",
     "desc": "Jason Baik's Data Science Journey"
+ },
+ {
+		"name": "framingham district 2 news",
+		"url": "http://www.district2framingham.com/",
+		"desc": "Neighborhood news and events in Framingham (Mass.) District 2"
  }
 ]
