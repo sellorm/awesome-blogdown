@@ -217,5 +217,10 @@
 		"name": "framingham district 2 news",
 		"url": "http://www.district2framingham.com/",
 		"desc": "Neighborhood news and events in Framingham (Mass.) District 2"
+ },
+ {
+		"name": "aebou.rbind.io",
+		"url": "https://aebou.rbind.io",
+		"desc": "Anicet Ebou's blog"
  }
 ]
