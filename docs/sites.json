@@ -222,5 +222,10 @@
 		"name": "aebou.rbind.io",
 		"url": "https://aebou.rbind.io",
 		"desc": "Anicet Ebou's blog"
+ },
+ {
+		"name": "emmavestesson.netlify.com",
+		"url": "https://emmavestesson.netlify.com",
+		"desc": "Playing with Data - Emma Vestesson's blog"
  }
 ]
