@@ -227,5 +227,10 @@
 		"name": "emmavestesson.netlify.com",
 		"url": "https://emmavestesson.netlify.com",
 		"desc": "Playing with Data - Emma Vestesson's blog"
+ },
+ {
+		"name": "Crime by the Numbers",
+		"url": "https://crimebythenumbers.com/",
+		"desc": "Quantitative analysis of crime in the United States"
  }
 ]
