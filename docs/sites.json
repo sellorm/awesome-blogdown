@@ -237,5 +237,10 @@
 		"name": "Crime by the Numbers",
 		"url": "https://crimebythenumbers.com/",
 		"desc": "Quantitative analysis of crime in the United States"
+ },
+ {
+		"name": "Sex, Drugs and Data",
+		"url": "https://giorasimchoni.com/",
+		"desc": "Giora Simchoni's blog about everything he can't do at work"
  }
 ]
