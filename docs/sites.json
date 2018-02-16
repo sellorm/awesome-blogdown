@@ -254,8 +254,13 @@
         "desc": "GL Li's personal website"
 },
  {
+  "name": "seandavi(s12)",
+  "url": "https://seandavi.github.io",
+  "desc": "Sean Davis's personal website--cancer research, bioconductor, IT, cloud, and data science"
+},
+ {
   "name": "Paula Andrea",
   "url": "http://paulaandrea.rbind.io/",
   "desc": "A personal website with love of R"
-}
+ }
 ]
