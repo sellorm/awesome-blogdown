@@ -262,5 +262,10 @@
   "name": "Paula Andrea",
   "url": "http://paulaandrea.rbind.io/",
   "desc": "A personal website with love of R"
- }
+ },
+ {
+  "name": "Jeno Pal's blog",
+  "url": "https://jenopal.netlify.com/",
+  "desc": "A blog about data-related things, mainly with R"
+}
 ]
