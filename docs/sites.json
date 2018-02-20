@@ -267,5 +267,10 @@
   "name": "Jeno Pal's blog",
   "url": "https://jenopal.netlify.com/",
   "desc": "A blog about data-related things, mainly with R"
+},
+ {
+  "name": "Jindra Lacko's blog",
+  "url": "http://www.jla-data.net/",
+  "desc": "A blog on data, visualization and having fun with R. Mostly in English, with a Czech section."
 }
 ]
