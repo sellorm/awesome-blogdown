@@ -272,5 +272,20 @@
   "name": "Jindra Lacko's blog",
   "url": "http://www.jla-data.net/",
   "desc": "A blog on data, visualization and having fun with R. Mostly in English, with a Czech section."
+},
+ {
+  "name": "StatnMap",
+  "url": "https://statnmap.com",
+  "desc": "R, models and spatial things. The blog of Sébastien Rochette"
+},
+{
+  "name": "Biology and bio-image analysis",
+  "url": "https://marionlouveaux.free.fr",
+  "desc": "Marion Louveaux's blog about research in biology, 4D-microscopy, bio-image analyses and data science"
+},
+{
+  "name": "Marie Vaugoyeau's blog",
+  "url": "https://mvaugoyeau.netlify.com",
+  "desc": "A blog about R, data analyses and statistics"
 }
 ]
