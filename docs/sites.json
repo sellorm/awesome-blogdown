@@ -292,5 +292,10 @@
   "name": "floresfdev.github.io",
   "url": "https://floresfdev.github.io",
   "desc": "Fernando Flores - Data science, software development and engineering"
+},
+ {
+  "name": "Código R",
+  "url": "https://eliocamp.github.io/codigo-r/",
+  "desc": "Blog de R en español"
 }
 ]
