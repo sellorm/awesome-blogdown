@@ -173,45 +173,45 @@
 		"url": "https://tanjakec.github.io",
 		"desc": "The blog of Tatjana Kecojevic, statistician and founder of RLadies-Manchester"
 	},
-  {
-    "name": "aurora-mareviv.github.io",
-		"url": "http://aurora-mareviv.github.io",
+        {
+                "name": "aurora-mareviv.github.io/talesofr",
+                "url": "https://aurora-mareviv.github.io/talesofr",
 		"desc": "Tales of R blog"
 	},
-  {
-    "name": "jvera.netlify.com",
+	{
+                "name": "jvera.netlify.com",
 		"url": "http://jvera.netlify.com",
 		"desc": "Swimming in the Data Lake, a blog by Jose Manuel Vera"
 	},
-  {
-		"name": "asimumba.rbind.io",
-		"url": "https://asimumba.rbind.io",
+        {
+                "name": "asimumba.rbind.io",
+                "url": "https://asimumba.rbind.io",
 		"desc": "Aaron Simumba's personal blog"
 	},
 	{
-	  "name": "zedr.rbind.io",
-	  "url": "https://zedr.rbind.io",
-	  "desc": "The ZedR website - Members blog"
+                "name": "zedr.rbind.io",
+                "url": "https://zedr.rbind.io",
+                "desc": "The ZedR website - Members blog"
 	},
 	{
-    "name": "p0bs",
-    "url": "http://p0bs.com",
-    "desc": "Robin Penfold's personal blog; the architecture of which is plagiarised from the great work of Amber Thomas"
-  },
+                "name": "p0bs",
+                "url": "http://p0bs.com",
+                "desc": "Robin Penfold's personal blog; the architecture of which is plagiarised from the great work of Amber Thomas"
+        },
 	{
-    "name": "angela-li.github.io",
-    "url": "http://angela-li.github.io",
-    "desc": "Angela Li's blog - R user, student of Economics and Publiic Policy, and founder of R-Ladies Chicago"
-  },
+                "name": "angela-li.github.io",
+                "url": "http://angela-li.github.io",
+                "desc": "Angela Li's blog - R user, student of Economics and Publiic Policy, and founder of R-Ladies Chicago"
+        },
 	{
-    "name": "rladiesnyc.org",
-    "url": "http://www.rladiesnyc.org/",
-    "desc": "R-Ladies New York"
-  },
+                "name": "rladiesnyc.org",
+                "url": "http://www.rladiesnyc.org/",
+                "desc": "R-Ladies New York"
+        },
 	{
-    "name": "jasonbaik94.rbind.io",
-    "url": "https://jasonbaik94.rbind.io",
-    "desc": "Jason Baik's Data Science Journey"
+                "name": "jasonbaik94.rbind.io",
+                "url": "https://jasonbaik94.rbind.io",
+                "desc": "Jason Baik's Data Science Journey"
  },
  {
 		"name": "framingham district 2 news",
@@ -249,9 +249,9 @@
 		"desc": "Urban study of Mexico with 95% Rstats tools, in French - Blogdown, liftr, Xaringan, R"
  },
  {
-        "name": "R & Census",
-        "url": "http://www.gl-li.com/ ",
-        "desc": "GL Li's personal website"
+                "name": "R & Census",
+                "url": "http://www.gl-li.com/ ",
+                "desc": "GL Li's personal website"
 },
  {
   "name": "seandavi(s12)",
