@@ -297,5 +297,10 @@
   "name": "Código R",
   "url": "https://eliocamp.github.io/codigo-r/",
   "desc": "Blog de R en español"
+},
+{
+  "name": "chasemc.github.io",
+  "url": "https://chasemc.github.io",
+  "desc": "Chase Clark: Open-Source Bioinformatics with R and Shiny + Random Data Science"
 }
 ]
