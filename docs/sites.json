@@ -302,5 +302,10 @@
   "name": "chasemc.github.io",
   "url": "https://chasemc.github.io",
   "desc": "Chase Clark: Open-Source Bioinformatics with R and Shiny + Random Data Science"
+},
+{
+	"name": "garrickadenbuie.com",
+	"url": "https://garrickadenbuie.com",
+	"desc": "R and other things I've learned. Garrick Aden-Buie's webpage and blog."
 }
 ]
