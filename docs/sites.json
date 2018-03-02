@@ -4,6 +4,11 @@
 		"desc": "Yihui Xie, software engineer at RStudio, author of Knitr, bookdown, blogdown and others."
 	},
 	{
+		"name": "Rahul's Personal Blog on Stats & ML",
+		"url": "https://rsangole.netlify.com",
+		"desc": "Hacking through stats & ML using R."
+	},
+	{
 		"name": "blog.sellorm.com",
 		"url": "http://blog.sellorm.com",
 		"desc": "Data Engineering, R in Production, technology stuff."
