@@ -1,4 +1,5 @@
-[{
+[
+	{
 		"name": "yihui.name",
 		"url": "https://yihui.name/",
 		"desc": "Yihui Xie, software engineer at RStudio, author of Knitr, bookdown, blogdown and others."
@@ -136,7 +137,7 @@
 	{
 		"name": "kocabiyik.github.io",
 		"url": "https://kocabiyik.github.io/",
-			"desc": "Imran's blog about data viz"
+		"desc": "Imran's blog about data viz"
 	},
 	{
 		"name": "enpiar.com",
@@ -178,154 +179,154 @@
 		"url": "https://tanjakec.github.io",
 		"desc": "The blog of Tatjana Kecojevic, statistician and founder of RLadies-Manchester"
 	},
-        {
-                "name": "aurora-mareviv.github.io/talesofr",
-                "url": "https://aurora-mareviv.github.io/talesofr",
+	{
+		"name": "aurora-mareviv.github.io/talesofr",
+		"url": "https://aurora-mareviv.github.io/talesofr",
 		"desc": "Tales of R blog"
 	},
 	{
-                "name": "jvera.netlify.com",
+		"name": "jvera.netlify.com",
 		"url": "http://jvera.netlify.com",
 		"desc": "Swimming in the Data Lake, a blog by Jose Manuel Vera"
 	},
-        {
-                "name": "asimumba.rbind.io",
-                "url": "https://asimumba.rbind.io",
+	{
+		"name": "asimumba.rbind.io",
+		"url": "https://asimumba.rbind.io",
 		"desc": "Aaron Simumba's personal blog"
 	},
 	{
-                "name": "zedr.rbind.io",
-                "url": "https://zedr.rbind.io",
-                "desc": "The ZedR website - Members blog"
+		"name": "zedr.rbind.io",
+		"url": "https://zedr.rbind.io",
+		"desc": "The ZedR website - Members blog"
 	},
 	{
-                "name": "p0bs",
-                "url": "http://p0bs.com",
-                "desc": "Robin Penfold's personal blog; the architecture of which is plagiarised from the great work of Amber Thomas"
-        },
+		"name": "p0bs",
+		"url": "http://p0bs.com",
+		"desc": "Robin Penfold's personal blog; the architecture of which is plagiarised from the great work of Amber Thomas"
+	},
 	{
-                "name": "angela-li.github.io",
-                "url": "http://angela-li.github.io",
-                "desc": "Angela Li's blog - R user, student of Economics and Publiic Policy, and founder of R-Ladies Chicago"
-        },
+		"name": "angela-li.github.io",
+		"url": "http://angela-li.github.io",
+		"desc": "Angela Li's blog - R user, student of Economics and Publiic Policy, and founder of R-Ladies Chicago"
+	},
 	{
-                "name": "rladiesnyc.org",
-                "url": "http://www.rladiesnyc.org/",
-                "desc": "R-Ladies New York"
-        },
+		"name": "rladiesnyc.org",
+		"url": "http://www.rladiesnyc.org/",
+		"desc": "R-Ladies New York"
+	},
 	{
-                "name": "jasonbaik94.rbind.io",
-                "url": "https://jasonbaik94.rbind.io",
-                "desc": "Jason Baik's Data Science Journey"
- },
- {
+		"name": "jasonbaik94.rbind.io",
+		"url": "https://jasonbaik94.rbind.io",
+		"desc": "Jason Baik's Data Science Journey"
+	},
+	{
 		"name": "framingham district 2 news",
 		"url": "http://www.district2framingham.com/",
 		"desc": "Neighborhood news and events in Framingham (Mass.) District 2"
- },
- {
+	},
+	{
 		"name": "aebou.rbind.io",
 		"url": "https://aebou.rbind.io",
 		"desc": "Anicet Ebou's blog"
- },
- {
+	},
+	{
 		"name": "emmavestesson.netlify.com",
 		"url": "https://emmavestesson.netlify.com",
 		"desc": "Playing with Data - Emma Vestesson's blog"
- },
- {
+	},
+	{
 		"name": "shirin-glander.de",
 		"url": "https://www.shirin-glander.de",
 		"desc": "Dr Shirin Glander is a biologist turned bioinformatician turned data scientist"
- },
- {
+	},
+	{
 		"name": "Crime by the Numbers",
 		"url": "https://crimebythenumbers.com/",
 		"desc": "Quantitative analysis of crime in the United States"
- } ,
- {
+	},
+	{
 		"name": "OpenGIS",
 		"url": "http://roelandtn.frama.io/",
 		"desc": "Blog about FOSS, GIS and data analysis"
- },
- {
+	},
+	{
 		"name": "espace résidentiel dans la Zone métropolitaine de Mexico",
 		"url": "http://m2_projet_mexique.frama.io/website/",
 		"desc": "Urban study of Mexico with 95% Rstats tools, in French - Blogdown, liftr, Xaringan, R"
- },
- {
-                "name": "R & Census",
-                "url": "http://www.gl-li.com/ ",
-                "desc": "GL Li's personal website"
-},
- {
-  "name": "seandavi(s12)",
-  "url": "https://seandavi.github.io",
-  "desc": "Sean Davis's personal website--cancer research, bioconductor, IT, cloud, and data science"
-},
- {
-  "name": "Paula Andrea",
-  "url": "http://paulaandrea.rbind.io/",
-  "desc": "A personal website with love of R"
- },
- {
-  "name": "Jeno Pal's blog",
-  "url": "https://jenopal.netlify.com/",
-  "desc": "A blog about data-related things, mainly with R"
-},
- {
-  "name": "Jindra Lacko's blog",
-  "url": "http://www.jla-data.net/",
-  "desc": "A blog on data, visualization and having fun with R. Mostly in English, with a Czech section."
-},
- {
-  "name": "StatnMap",
-  "url": "https://statnmap.com",
-  "desc": "R, models and spatial things. The blog of Sébastien Rochette"
-},
-{
-  "name": "Biology and bio-image analysis",
-  "url": "https://marionlouveaux.fr",
-  "desc": "Marion Louveaux's blog about research in biology, 3D+time microscopy, bioimage analysis and data science"
-},
-{
-  "name": "Marie Vaugoyeau's blog",
-  "url": "https://mvaugoyeau.netlify.com",
-  "desc": "A blog about R, data analyses and statistics"
-},
-{
-  "name": "floresfdev.github.io",
-  "url": "https://floresfdev.github.io",
-  "desc": "Fernando Flores - Data science, software development and engineering"
-},
- {
-  "name": "Código R",
-  "url": "https://eliocamp.github.io/codigo-r/",
-  "desc": "Blog de R en español"
-},
-{
-  "name": "chasemc.github.io",
-  "url": "https://chasemc.github.io",
-  "desc": "Chase Clark: Open-Source Bioinformatics with R and Shiny + Random Data Science"
-},
-{
-	"name": "garrickadenbuie.com",
-	"url": "https://garrickadenbuie.com",
-	"desc": "R and other things I've learned. Garrick Aden-Buie's webpage and blog."
-},
-{
-	"name": "Culture of Insight",
-	"url": "https://cultureofinsight.com/blog/",
-	"desc": "R focused blog of London based data consultancy Culture of Insight"
-},
-{
-  "name": "jennadallen.com",
-  "url": "https://jennadallen.com",
-  "desc": "R focused blog from an aspiring data scientist"
-},
-{
-  "name": "jessemaegan.com",
-  "url": "https://www.jessemaegan.com",
-  "desc": "A site dedicated to helping learners develop data science skills in R"
-}
+	},
+	{
+		"name": "R & Census",
+		"url": "http://www.gl-li.com/ ",
+		"desc": "GL Li's personal website"
+	},
+	{
+		"name": "seandavi(s12)",
+		"url": "https://seandavi.github.io",
+		"desc": "Sean Davis's personal website--cancer research, bioconductor, IT, cloud, and data science"
+	},
+	{
+		"name": "Paula Andrea",
+		"url": "http://paulaandrea.rbind.io/",
+		"desc": "A personal website with love of R"
+	},
+	{
+		"name": "Jeno Pal's blog",
+		"url": "https://jenopal.netlify.com/",
+		"desc": "A blog about data-related things, mainly with R"
+	},
+	{
+		"name": "Jindra Lacko's blog",
+		"url": "http://www.jla-data.net/",
+		"desc": "A blog on data, visualization and having fun with R. Mostly in English, with a Czech section."
+	},
+	{
+		"name": "StatnMap",
+		"url": "https://statnmap.com",
+		"desc": "R, models and spatial things. The blog of Sébastien Rochette"
+	},
+	{
+		"name": "Biology and bio-image analysis",
+		"url": "https://marionlouveaux.fr",
+		"desc": "Marion Louveaux's blog about research in biology, 3D+time microscopy, bioimage analysis and data science"
+	},
+	{
+		"name": "Marie Vaugoyeau's blog",
+		"url": "https://mvaugoyeau.netlify.com",
+		"desc": "A blog about R, data analyses and statistics"
+	},
+	{
+		"name": "floresfdev.github.io",
+		"url": "https://floresfdev.github.io",
+		"desc": "Fernando Flores - Data science, software development and engineering"
+	},
+	{
+		"name": "Código R",
+		"url": "https://eliocamp.github.io/codigo-r/",
+		"desc": "Blog de R en español"
+	},
+	{
+		"name": "chasemc.github.io",
+		"url": "https://chasemc.github.io",
+		"desc": "Chase Clark: Open-Source Bioinformatics with R and Shiny + Random Data Science"
+	},
+	{
+		"name": "garrickadenbuie.com",
+		"url": "https://garrickadenbuie.com",
+		"desc": "R and other things I've learned. Garrick Aden-Buie's webpage and blog."
+	},
+	{
+		"name": "Culture of Insight",
+		"url": "https://cultureofinsight.com/blog/",
+		"desc": "R focused blog of London based data consultancy Culture of Insight"
+	},
+	{
+		"name": "jennadallen.com",
+		"url": "https://jennadallen.com",
+		"desc": "R focused blog from an aspiring data scientist"
+	},
+	{
+		"name": "jessemaegan.com",
+		"url": "https://www.jessemaegan.com",
+		"desc": "A site dedicated to helping learners develop data science skills in R"
+	}
 ]
