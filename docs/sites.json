@@ -333,5 +333,10 @@
 		"name": "guyabel.com",
 		"url": "https://www.guyabel.com",
 		"desc": "Guy Abel, Professor at Shanghai University. Blog on demography and R."
+	},
+	{
+		"name": "Visible Data",
+		"url": "http://www.visibledata.co.uk/blog/",
+		"desc": "Martin John Hadley's blog on data science, dataviz and reproducible research methods."
 	}
 ]
