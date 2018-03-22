@@ -338,5 +338,11 @@
 		"name": "Visible Data",
 		"url": "http://www.visibledata.co.uk/blog/",
 		"desc": "Martin John Hadley's blog on data science, dataviz and reproducible research methods."
+	},
+	{
+		"name": "jenny-listman.netlify.com",
+		"url": "https://jenny-listman.netlify.com",
+		"desc": "Jenny Listman's data science project website and R blog"
 	}
+	
 ]
