@@ -343,6 +343,11 @@
 		"name": "jenny-listman.netlify.com",
 		"url": "https://jenny-listman.netlify.com",
 		"desc": "Jenny Listman's data science project website and R blog"
+	},
+	{
+		"name": "foundinblank.io",
+		"url": "http://foundinblank.io",
+		"desc": "Adam Stone's data science and R blog"
 	}
 	
 ]
