@@ -1,0 +1,3 @@
+before_install: sudo apt-get install jq
+install: ./tools/abjsonchk.sh
+
