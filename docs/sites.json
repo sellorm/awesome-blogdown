@@ -276,12 +276,12 @@
 	},
 	{
 		"name": "StatnMap",
-		"url": "https://statnmap.com",
+		"url": "https://statnmap.com/",
 		"desc": "R, models and spatial things. The blog of Sébastien Rochette"
 	},
 	{
 		"name": "Biology and bio-image analysis",
-		"url": "https://marionlouveaux.fr",
+		"url": "https://marionlouveaux.fr/",
 		"desc": "Marion Louveaux's blog about research in biology, 3D+time microscopy, bioimage analysis and data science"
 	},
 	{
@@ -306,17 +306,17 @@
 	},
 	{
 		"name": "garrickadenbuie.com",
-		"url": "https://garrickadenbuie.com",
+		"url": "https://www.garrickadenbuie.com",
 		"desc": "R and other things I've learned. Garrick Aden-Buie's webpage and blog."
 	},
 	{
 		"name": "Culture of Insight",
-		"url": "https://cultureofinsight.com/blog/",
+		"url": "https://www.cultureofinsight.com/blog/",
 		"desc": "R focused blog of London based data consultancy Culture of Insight"
 	},
 	{
 		"name": "jennadallen.com",
-		"url": "https://jennadallen.com",
+		"url": "https://www.jennadallen.com",
 		"desc": "R focused blog from an aspiring data scientist"
 	},
 	{
@@ -326,7 +326,7 @@
 	},
 	{
 		"name": "guyabel.com",
-		"url": "https://www.guyabel.com",
+		"url": "https://guyabel.com",
 		"desc": "Guy Abel, Professor at Shanghai University. Blog on demography and R."
 	},
 	{
