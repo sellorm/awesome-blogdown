@@ -343,6 +343,11 @@
 		"name": "foundinblank.io",
 		"url": "http://foundinblank.io",
 		"desc": "Adam Stone's data science and R blog"
+	},
+	{
+		"name": "Evan Odell's Blog",
+		"url": "https://evanodell.com/blog",
+		"desc": "Evan Odell's blog on politics, geography and data science."
 	}
 	
 ]
