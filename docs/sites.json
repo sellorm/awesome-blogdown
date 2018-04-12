@@ -348,6 +348,11 @@
 		"name": "Evan Odell's Blog",
 		"url": "https://evanodell.com/blog",
 		"desc": "Evan Odell's blog on politics, geography and data science."
+	},
+	{
+		"name": "Regression to the Mean",
+		"url": "http://www.josepespasa.cat",
+		"desc": "My blog for data analysis and other things I learned the hard way."
 	}
 	
 ]
