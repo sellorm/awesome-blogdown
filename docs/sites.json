@@ -353,6 +353,11 @@
 		"name": "Regression to the Mean",
 		"url": "http://www.josepespasa.cat",
 		"desc": "Josep's blog on data analysis (and other things he learned the hard way)."
-	}
+	},
+	{
+		"name": "eokodie.com",
+		"url": "https://www.eokodie.com/",
+		"desc": "Ernest Omane-Kodie's musings on the R programming language, data and visualisation"
+	}	
 	
 ]
