@@ -13,7 +13,7 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 
 ## Adding your site
 
-The Awesome Blogdown website is driven from a single json file in `docs/site.json`. This file is automatically built from the contents of the `json` directory.
+The Awesome Blogdown website is driven from a single json file that gets deployed to the website. This file is automatically built from the contents of the `json` directory.
 
 To add your site, create a new file in the `json` directory, using the convention '<DOMAIN NAME>.json', for instance, if your site were hosted at 'rstats.example.com' the filename to use would be 'rstats.example.com.json'.
 
