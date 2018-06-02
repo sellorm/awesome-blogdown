@@ -13,9 +13,11 @@ If you want to add a site that uses blogdown to this list, please create a pull 
 
 ## Adding your site
 
-The Awesome Blogdown website is driven from a single json file in `docs/site.json`. Hopefully the file itself is straightforward enough to understand.
+The Awesome Blogdown website is driven from a single json file in `docs/site.json`. This file is automatically built from the contents of the `json` directory.
 
-The structure is as follows:
+To add your site, create a new file in the `json` directory, using the convention '<DOMAIN NAME>.json', for instance, if your site were hosted at 'rstats.example.com' the filename to use would be 'rstats.example.com.json'.
+
+The new file should contain a short json snippet that describes your site. The structure is as follows:
 
 ```
 {
@@ -25,7 +27,7 @@ The structure is as follows:
 }
 ```
 
-Have a look at the file to get an idea of the structure and what's been added for other sites, and then create a pull request with your changes.
+Have a look at the some of the other files in the `json` directory to get an idea of the structure and what's been added for other sites, and then create a pull request with your changes.
 
 ## Using the Awesome Blogdown data
 
