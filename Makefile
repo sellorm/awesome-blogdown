@@ -3,7 +3,7 @@
 all : docs/sites.json logs/json-valid.log
 
 docs/sites.json : json/*.json
-	./tools/build-json.sh ./json ./sites.json
+	./tools/build-json.sh ./json ./docs/sites.json
 	
 logs/json-valid.log : docs/sites.json
 	-mkdir ./logs
