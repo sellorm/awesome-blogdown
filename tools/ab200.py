@@ -22,9 +22,9 @@ for site in sites:
       num_errors = num_errors + 1
       
 # post results to slack
-message = "awesome-blogdown.com site checker found "+str(num_errors)+" today"
+message = "awesome-blogdown.com site checker found "+str(num_errors)+" errors today"
 webhook_url = os.environ['SLACK_WEBHOOK_URL']
-slack_data = {'text': message}
+slack_data = {'username': 'awesome-blogdown-checker', text': message}
 
 response = requests.post(webhook_url, json=slack_data)
 
