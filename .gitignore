@@ -4,4 +4,3 @@
 logs/
 docs/sites.json
 tools/*.log
-tools/build.trigger
