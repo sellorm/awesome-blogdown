@@ -3,3 +3,4 @@
 .Rhistory
 logs/
 docs/sites.json
+tools/*.log
