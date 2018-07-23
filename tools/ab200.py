@@ -5,10 +5,29 @@ sites it finds are actually up.
 No checks are made over the content of the site
 """
 
+
 import requests, sys, os
 
 
-# check for the BLOGDOWN_JSON_URL else quit
+# set the user agent for the checker - good manners cost nothing
+headers = {'user-agent': 'awesome-blogdown.com site availability checker'}
+
+# check for a URL passed on the command line
+try:
+  sys.argv[1]
+  r = requests.get(sys.argv[1], headers = headers)
+  if r.ok:
+    code_check_status = "OK"
+  else:
+    code_check_status = "FAIL"
+  print(sys.argv[1]+" - "+str(r.status_code)+" - "+code_check_status)
+  sys.exit()
+except IndexError:
+  print("No CLI input defined - continuing...")
+    
+  
+
+# check for the BLOGDOWN_JSON_URL else error and quit
 try:
   blogdown_json_url = os.environ['BLOGDOWN_JSON_URL']
 except:
@@ -16,21 +35,19 @@ except:
   sys.exit(1)
 
 
-# get the ab sites json
+# get the sites.json file from blogdown_json_url
 sites = requests.get(blogdown_json_url).json()
-
-
-# set the user agent for the checker - good manners cost nothing
-headers = {'user-agent': 'awesome-blogdown.com site availability checker'}
 
 
 # set an initial number of errors at zero
 num_errors = 0
 
+
 # set initial number of sites checked
 num_checked = 0
 
-# check for the SLACK_WEBHOOK_URL else quit
+
+# check for the SLACK_WEBHOOK_URL else error and quit
 try:
   webhook_url = os.environ['SLACK_WEBHOOK_URL']
 except:
@@ -53,7 +70,6 @@ for site in sites:
     print(site['url']+" - Unknown error")
     num_errors = num_errors + 1
   
-
 
 # post results to slack
 message = "awesome-blogdown.com site checker found "+str(num_errors)+" errors today. "+str(num_checked)+"/"+str(len(sites))+" perfects."
