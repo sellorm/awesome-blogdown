@@ -12,6 +12,7 @@ import requests, sys, os
 # set the user agent for the checker - good manners cost nothing
 headers = {'user-agent': 'awesome-blogdown.com site availability checker'}
 
+
 # check for a URL passed on the command line
 try:
   sys.argv[1]
@@ -67,8 +68,20 @@ for site in sites:
     print(site['url']+" - "+str(r.status_code)+" - "+code_check_status)
     num_checked = num_checked + 1
   except:
-    print(site['url']+" - Unknown error")
-    num_errors = num_errors + 1
+    # did we except because of an SSL issue?
+    # try again but skip cert verification
+    try:
+      r = requests.get(site['url'], headers = headers, verify = False)
+      if r.ok:
+        code_check_status = "SSL Failure"
+      else:
+        code_check_status = "FAIL"
+        num_errors = num_errors + 1
+      print(site['url']+" - "+str(r.status_code)+" - "+code_check_status)
+      num_checked = num_checked + 1
+    except:
+      print(site['url']+" - Unknown error")
+      num_errors = num_errors + 1
   
 
 # post results to slack
