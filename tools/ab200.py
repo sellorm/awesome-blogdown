@@ -100,12 +100,13 @@ for site in sites:
     num_passed = num_passed + 1
   
 
-# post results to slack
+# create summary message for console and slack
 message = "awesome-blogdown.com site checker found {} errors today. {}/{} " \
           "passed.".format(str(num_errors), str(num_passed), str(len(sites)))
 print(message)
 
-# what are we posting to slack?
+
+# build the slack payload
 slack_data = {'username': 'awesome-blogdown-checker', 'text': message}
 
 
