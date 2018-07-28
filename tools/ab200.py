@@ -44,8 +44,8 @@ sites = requests.get(blogdown_json_url).json()
 num_errors = 0
 
 
-# set initial number of sites checked
-num_checked = 0
+# set initial number of sites that pass the checks
+num_passed = 0
 
 
 # check for the SLACK_WEBHOOK_URL else error and quit
@@ -56,38 +56,54 @@ except:
   sys.exit(1)
 
 
+# URL information class - contains useful info about a given URL
+class URLInfo:
+  def __init__(self, url):
+    self.url = url
+    self.status_msg = "Unchecked"
+    self.status_code = 0
+    self.is_error = False
+
+  def check_url(self):
+    try:
+      r = requests.get(self.url, headers = headers)
+      if r.ok:
+        self.status_msg = "OK"
+      else:
+        self.status_msg = "Fail"
+        self.is_error = True
+      self.status_code = r.status_code
+    except:
+      # see if we failed due to an SSL error
+      try:
+        r = requests.get(self.url, headers = headers, verify = False)
+        if r.ok:
+          self.status_msg = "SSL Failure"
+        else:
+          self.status_msg = "FAIL"
+          self.is_error = True
+        self.status_code = r.status_code
+      except:
+        self.status_msg = "Unknown Error"
+        self.is_error = True
+    
+
 # cycle throught the sites and run the availability check
 for site in sites:
-  try:
-    r = requests.get(site['url'], headers = headers)
-    if r.ok:
-      code_check_status = "OK"
-    else:
-      code_check_status = "FAIL"
-      num_errors = num_errors + 1
-    print(site['url']+" - "+str(r.status_code)+" - "+code_check_status)
-    num_checked = num_checked + 1
-  except:
-    # did we except because of an SSL issue?
-    # try again but skip cert verification
-    try:
-      r = requests.get(site['url'], headers = headers, verify = False)
-      if r.ok:
-        code_check_status = "SSL Failure"
-      else:
-        code_check_status = "FAIL"
-        num_errors = num_errors + 1
-      print(site['url']+" - "+str(r.status_code)+" - "+code_check_status)
-      num_checked = num_checked + 1
-    except:
-      print(site['url']+" - Unknown error")
-      num_errors = num_errors + 1
+  site_data = URLInfo(site['url'])
+  site_data.check_url()
+  print("{} - {} - {}".format(site_data.url, site_data.status_code,
+                              site_data.status_msg))
+  if site_data.is_error:
+    num_errors = num_errors + 1
+  else:
+    num_passed = num_passed + 1
   
 
 # post results to slack
 message = "awesome-blogdown.com site checker found {} errors today. {}/{} " \
-          "perfects.".format(str(num_errors), str(num_checked), str(len(sites)))
-
+          "passed.".format(str(num_errors), str(num_passed), str(len(sites)))
+print(message)
 
 # what are we posting to slack?
 slack_data = {'username': 'awesome-blogdown-checker', 'text': message}
