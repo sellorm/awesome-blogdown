@@ -85,7 +85,8 @@ for site in sites:
   
 
 # post results to slack
-message = "awesome-blogdown.com site checker found "+str(num_errors)+" errors today. "+str(num_checked)+"/"+str(len(sites))+" perfects."
+message = "awesome-blogdown.com site checker found {} errors today. {}/{} " \
+          "perfects.".format(str(num_errors), str(num_checked), str(len(sites)))
 
 
 # what are we posting to slack?
