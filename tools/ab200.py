@@ -6,121 +6,134 @@ No checks are made over the content of the site
 """
 
 
-import requests, sys, os
+import os
+import sys
+import requests
 
 
 # set the user agent for the checker - good manners cost nothing
-headers = {'user-agent': 'awesome-blogdown.com site availability checker'}
+HEADERS = {'user-agent': 'awesome-blogdown.com site availability checker'}
 
 
 # check for a URL passed on the command line
 try:
-  sys.argv[1]
-  r = requests.get(sys.argv[1], headers = headers)
-  if r.ok:
-    code_check_status = "OK"
-  else:
-    code_check_status = "FAIL"
-  print(sys.argv[1]+" - "+str(r.status_code)+" - "+code_check_status)
-  sys.exit()
+    sys.argv[1]
+    CLIRESPONSE = requests.get(sys.argv[1], headers=HEADERS)
+    if CLIRESPONSE.ok:
+        CHECK_STATUS_MSG = "OK"
+    else:
+        CHECK_STATUS_MSG = "FAIL"
+    print(sys.argv[1]+" - "+str(CLIRESPONSE.status_code)+" - "+CHECK_STATUS_MSG)
+    sys.exit()
 except IndexError:
-  print("No CLI input defined - continuing...")
-    
-  
+    print("No CLI input defined - continuing...")
+
+
 
 # check for the BLOGDOWN_JSON_URL else error and quit
 try:
-  blogdown_json_url = os.environ['BLOGDOWN_JSON_URL']
-except:
-  print("Error: problem with BLOGDOWN_JSON_URL environment variable")
-  sys.exit(1)
+    BLOGDOWN_JSON_URL = os.environ['BLOGDOWN_JSON_URL']
+except KeyError:
+    print("Error: BLOGDOWN_JSON_URL environment variable not defined")
+    sys.exit(1)
 
 
-# get the sites.json file from blogdown_json_url
-sites = requests.get(blogdown_json_url).json()
+# get the sites.json file from BLOGDOWN_JSON_URL
+SITES = requests.get(BLOGDOWN_JSON_URL).json()
 
 
 # set an initial number of errors at zero
-num_errors = 0
+NUM_ERRORS = 0
 
 
 # set initial number of sites that pass the checks
-num_passed = 0
+NUM_PASSED = 0
 
 
 # check for the SLACK_WEBHOOK_URL else error and quit
 try:
-  webhook_url = os.environ['SLACK_WEBHOOK_URL']
-except:
-  print("Error: problem with SLACK_WEBHOOK_URL environment variable")
-  sys.exit(1)
+    WEBHOOK_URL = os.environ['SLACK_WEBHOOK_URL']
+except KeyError:
+    print("Error: SLACK_WEBHOOK_URL environment variable not defined")
+    sys.exit(1)
 
 
 # URL information class - contains useful info about a given URL
 class URLInfo:
-  def __init__(self, url):
-    self.url = url
-    self.status_msg = "Unchecked"
-    self.status_code = 0
-    self.is_error = False
+    """
+    Container for information about supplied URLs
+    """
+    def __init__(self, url):
+        self.url = url
+        self.status_msg = "Unchecked"
+        self.status_code = 0
+        self.is_error = False
 
-  def check_url(self):
-    try:
-      r = requests.get(self.url, headers = headers)
-      if r.ok:
-        self.status_msg = "OK"
-      else:
-        self.status_msg = "Fail"
-        self.is_error = True
-      self.status_code = r.status_code
-    except:
-      # see if we failed due to an SSL error
-      try:
-        r = requests.get(self.url, headers = headers, verify = False)
-        if r.ok:
-          self.status_msg = "SSL Failure"
-        else:
-          self.status_msg = "FAIL"
-          self.is_error = True
-        self.status_code = r.status_code
-      except:
-        self.status_msg = "Unknown Error"
-        self.is_error = True
-    
+    def check_url(self):
+        """
+        check the given URL and use the results to populate object properties
+        """
+        try:
+            urlresponse = requests.get(self.url, headers=HEADERS)
+            urlresponse.raise_for_status()
+            if urlresponse.ok:
+                self.status_msg = "OK"
+            else:
+                self.status_msg = "Fail"
+                self.is_error = True
+                self.status_code = urlresponse.status_code
+        except requests.exceptions.SSLError:
+            # retry but without verifying the certs
+            urlresponse = requests.get(self.url, headers=HEADERS, verify=False)
+            self.status_code = urlresponse.status_code
+            self.status_msg = "SSL Error"
+        except requests.exceptions.HTTPError:
+            self.status_msg = "HTTP Error"
+            self.is_error = True
+        except requests.exceptions.ConnectionError:
+            self.status_msg = "Connection Error"
+            self.is_error = True
+        except requests.exceptions.Timeout:
+            self.status_msg = "Timeout"
+            self.is_error = True
+        except requests.exceptions.RequestException:
+            self.status_msg = "Request Exception"
+            self.is_error = True
+
 
 # cycle throught the sites and run the availability check
-for site in sites:
-  site_data = URLInfo(site['url'])
-  site_data.check_url()
-  print("{} - {} - {}".format(site_data.url, site_data.status_code,
-                              site_data.status_msg))
-  if site_data.is_error:
-    num_errors = num_errors + 1
-  else:
-    num_passed = num_passed + 1
-  
+for site in SITES:
+    site_data = URLInfo(site['url'])
+    site_data.check_url()
+    print("{} - {} - {}".format(site_data.url, site_data.status_code,
+                                site_data.status_msg))
+    if site_data.is_error:
+        NUM_ERRORS = NUM_ERRORS + 1
+    else:
+        NUM_PASSED = NUM_PASSED + 1
+
 
 # create summary message for console and slack
-message = "awesome-blogdown.com site checker found {} errors today. {}/{} " \
-          "passed.".format(str(num_errors), str(num_passed), str(len(sites)))
-print(message)
+MESSAGE = "awesome-blogdown.com site checker found {} errors today. {}/{} " \
+          "passed.".format(str(NUM_ERRORS), str(NUM_PASSED), str(len(SITES)))
+print(MESSAGE)
 
 
 # build the slack payload
-slack_data = {'username': 'awesome-blogdown-checker', 'text': message}
+SLACK_DATA = {'username': 'awesome-blogdown-checker', 'text': MESSAGE}
 
 
 # post to slack
-response = requests.post(webhook_url, json=slack_data)
+RESPONSE = requests.post(WEBHOOK_URL, json=SLACK_DATA)
 
 
 # check for errors
-if response.status_code != 200:
+if RESPONSE.status_code != 200:
     raise ValueError(
-        'Request to slack returned an error %s, the response is:\n%s'
-        % (response.status_code, response.text)
+        'Request to slack returned an error {}, the response is:\n{}'.format(
+            RESPONSE.status_code, RESPONSE.text)
     )
 
 
 # Exit the program using the number of errors as the exit code
-sys.exit(num_errors)
+sys.exit(NUM_ERRORS)
