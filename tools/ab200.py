@@ -76,12 +76,12 @@ class URLInfo:
         try:
             urlresponse = requests.get(self.url, headers=HEADERS)
             urlresponse.raise_for_status()
+            self.status_code = urlresponse.status_code
             if urlresponse.ok:
                 self.status_msg = "OK"
             else:
                 self.status_msg = "Fail"
                 self.is_error = True
-                self.status_code = urlresponse.status_code
         except requests.exceptions.SSLError:
             # retry but without verifying the certs
             urlresponse = requests.get(self.url, headers=HEADERS, verify=False)
