@@ -1,15 +1,15 @@
 # Awesome Blogdown
-An awesome curated list of blogs built using [blogdown](https://github.com/rstudio/blogdown).
+An awesome curated list of blogs built using [blogdown](https://github.com/rstudio/blogdown) or [hugodown](https://hugodown.r-lib.org).
 
-**Update:** Awesome Blogdown has moved to its own site, [awesome-blogdown.com](http://awesome-blogdown.com)!
+You'll find the Awesome Blogdown website at [awesome-blogdown.com](http://awesome-blogdown.com).
 
-## About Blogdown
+## About Blogdown and hugodown
 
-The blogdown package for R lets you create static websites using [RMarkdown](http://rmarkdown.rstudio.com/) and [Hugo](https://gohugo.io/). Sites are rendered to static files which simplifies publishing and hosting, at the same time as allowing you to easily version control your site.
+Blogdown and hugodown both allow you to build websites using R, [RMarkdown](http://rmarkdown.rstudio.com/) and [Hugo](https://gohugo.io/), but they work in slightly different ways. Check out their project website for more information on the fifferences. In both cases though, sites are rendered to static files which simplifies publishing and hosting, at the same time as allowing you to easily version control your site.
 
 ## Contributing to the list
 
-If you want to add a site that uses blogdown to this list, please create a pull request with the necessary change. We'll confirm that it's using blogdown and merge the request. If you're not comfortable doing that, find [me on twitter](https://twitter.com/sellorm) and let me know.
+If you want to add a site that uses blogdown or hugodown to this list, please create a pull request with the necessary change. We'll confirm that it's using one of the packages and merge the request. If you're not comfortable doing that, find [me on twitter](https://twitter.com/sellorm) and let me know.
 
 ## Adding your site
 
