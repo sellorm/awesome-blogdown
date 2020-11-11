@@ -8,7 +8,7 @@ docker-build.log : Dockerfile ab200.py Makefile
 ab200-run.log : Makefile ab200.py Dockerfile docker-build.log
 	docker run --rm -e SLACK_WEBHOOK_URL=${SLACK_WEBHOOK_URL} \
 	    -e BLOGDOWN_JSON_URL=${BLOGDOWN_JSON_URL} \
-	    ab200:latest > ab200-run.log
+	    sellorm/ab200:latest > ab200-run.log
 
 .PHONY : clean
 clean :
