@@ -26,4 +26,5 @@ jobs:
       - name: Run a one-line script
         env:
           BLOGDOWN_JSON_URL: ${{ secrets.BLOGDOWN_JSON_URL }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}  
         run: ./tools/ab200.py
