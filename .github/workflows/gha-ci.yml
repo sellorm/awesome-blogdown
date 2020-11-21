@@ -44,4 +44,4 @@ jobs:
         run: |
           git add -f docs/sites.json
           git commit -am "Automated GitHub action commit"
-          git push
+          git push --set-upstream origin netlify
