@@ -38,6 +38,6 @@ jobs:
           git config --global user.name "GitHub action"
           git config --global user.email "github@5vcc.com"
 
-          git checkout netlify
+          git checkout -b netlify
           git commit -am "Automated GitHub action commit"
           git push
