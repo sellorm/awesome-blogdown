@@ -24,4 +24,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
+        env:
+          BLOGDOWN_JSON_URL: ${{ secrets.BLOGDOWN_JSON_URL }}
         run: ./tools/ab200.py
