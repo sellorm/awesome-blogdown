@@ -42,6 +42,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Push the changes back to the repo
         run: |
-          git add docs/sites.json
+          git add -f docs/sites.json
           git commit -am "Automated GitHub action commit"
           git push
