@@ -6,4 +6,4 @@ if [[ ${INPUTDIR} == "missing" ]] || [[ ${OUTFILE} == "missing" ]]; then
   echo "Usage: $(basename ${0}) <input file dir> <output file>"
   exit 1
 fi
-jq . -c -s ${INPUTDIR}/*.json > ${OUTFILE}
+jq . -s ${INPUTDIR}/*.json > ${OUTFILE}
