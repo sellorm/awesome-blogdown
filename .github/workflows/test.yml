@@ -1,10 +1,10 @@
-# This is a basic workflow to help you get started with Actions
+# Allows us to test all PRs on awesome-blogdown.com
 
 name: test
 
 # Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
+  # Triggers the workflow on pull request events but only for the master branch
   pull_request:
     branches: [ master ]
 
@@ -27,6 +27,7 @@ jobs:
         run: sudo apt-get install -y jq
           
       # Runs a single command using the runners shell
+      # In this case make tries to build and check the json file
       - name: make the new json file
         run: |
           make

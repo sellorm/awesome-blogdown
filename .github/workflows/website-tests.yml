@@ -1,8 +1,8 @@
-# This is a basic workflow to help you get started with Actions
+# Test all participating sites on awesome-blogdown.com
 
 name: Site tests
 
-# Controls when the action will run. 
+# Controls when the action will run, in this case a schedule.
 on:
   schedule:
   - cron: "0 4 * * 1,4"
