@@ -1,0 +1,5 @@
+{
+  "name": "WiDS Tucson",
+  "url": "https://widstucson.org/",
+  "desc": " a blogdown site (based of wowchemy and academic) for the 2021 Women in Data Science Tucson Regional Conference."
+}
