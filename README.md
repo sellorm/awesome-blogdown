@@ -38,6 +38,13 @@ The json file containing all the data is served from [http://awesome-blogdown.co
 
 If you do end up using it for something, let me know, I'd love to hear about it!
 
+## Site build and deployment
+
+The site is built and deployed by manually trigerring the `CI` GitHub action.
+
+Site hosting is handled by Netlify.
+
+
 
 ## License
 
