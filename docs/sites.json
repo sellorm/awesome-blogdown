@@ -1,0 +1,562 @@
+[
+  {
+    "name": "aebou.rbind.io",
+    "url": "https://aebou.rbind.io",
+    "desc": "Anicet Ebou's blog"
+  },
+  {
+    "name": "alison.rbind.io",
+    "url": "https://alison.rbind.io/",
+    "desc": "Alison Presmanes Hill, Assistant Professor Oregon Health & Science University"
+  },
+  {
+    "name": "Alysha De Livera",
+    "url": "https://alyshadelivera.netlify.app/",
+    "desc": "Alysha De Livera's academic website"
+  },
+  {
+    "name": "amber.rbind.io",
+    "url": "https://amber.rbind.io/",
+    "desc": "Amber Thomas, researcher, communicator and aspiring data scientist."
+  },
+  {
+    "name": "AmitKohli.com",
+    "url": "https://www.amitkohli.com",
+    "desc": "Amit Kohli's personal blog... mostly about chasing all things data with Rstats"
+  },
+  {
+    "name": "angela-li.github.io",
+    "url": "https://angela-li.github.io",
+    "desc": "Angela Li's blog - R user, student of Economics and Publiic Policy, and founder of R-Ladies Chicago"
+  },
+  {
+    "name": "asimumba.rbind.io",
+    "url": "https://asimumba.rbind.io",
+    "desc": "Aaron Simumba's personal blog"
+  },
+  {
+    "name": "aurora-mareviv.github.io/talesofr",
+    "url": "https://aurora-mareviv.github.io/talesofr/",
+    "desc": "Tales of R blog"
+  },
+  {
+    "name": "beyondrawdata.rbind.io",
+    "url": "https://beyondrawdata.rbind.io/",
+    "desc": "Beyond Raw Data: Carlvin's personal blog about everything Data Science"
+  },
+  {
+    "name": "blog.jemu.name",
+    "url": "https://blog.jemu.name",
+    "desc": "The Blog Jemu"
+  },
+  {
+    "name": "Roel's R-tefacts",
+    "url": "https://blog.rmhogervorst.nl",
+    "desc": "Building things is fun! Short R-tips, examples and longer analyses"
+  },
+  {
+    "name": "brandonlebeau.org",
+    "url": "https://brandonlebeau.org/",
+    "desc": "Brandon LeBeau's Educate-R blog"
+  },
+  {
+    "name": "brfry.github.io",
+    "url": "https://brfry.github.io/",
+    "desc": "Beck Frydenborg, environmental consultant and ecolgist"
+  },
+  {
+    "name": "www.brodrigues.co",
+    "url": "http://www.brodrigues.co/",
+    "desc": "Bruno Rodrigues, Econometrics and Free Software."
+  },
+  {
+    "name": "bryanshalloway.com",
+    "url": "https://www.bryanshalloway.com/",
+    "desc": "Bryan Shalloway's blog on data science and other topics."
+  },
+  {
+    "name": "Chad Bixby's Data Blog",
+    "url": "https://www.chadbixby.com/",
+    "desc": "A blog analyzing data in sports, music, and other cool stuff"
+  },
+  {
+    "name": "chasemc.github.io",
+    "url": "https://chasemc.github.io",
+    "desc": "Chase Clark: Open-Source Bioinformatics with R and Shiny + Random Data Science"
+  },
+  {
+    "name": "code.markedmondson.me",
+    "url": "http://code.markedmondson.me/",
+    "desc": "Coding in digital analytics - Mark Edmondson"
+  },
+  {
+    "name": "codeRtime",
+    "url": "https://www.codertime.org/",
+    "desc": "R programming tutorials and exercises for data science and mathematics"
+  },
+  {
+    "name": "Crime by the Numbers",
+    "url": "https://crimebythenumbers.com/",
+    "desc": "Quantitative analysis of crime in the United States"
+  },
+  {
+    "name": "Culture of Insight",
+    "url": "https://www.cultureofinsight.com/blog/",
+    "desc": "R focused blog of London based data consultancy Culture of Insight"
+  },
+  {
+    "name": "cyrusyip.org",
+    "url": "https://cyrusyip.org",
+    "desc": "Cyrus Yip's blog on daily life and Linux"
+  },
+  {
+    "name": "The Dan MacKinlay family of variably-well-considered enterprises",
+    "url": "https://danmackinlay.name/",
+    "desc": "Dan MacKinlay’s notebooks on curious diversion in ML, music, mathematics and such"
+  },
+  {
+    "name": "datascienceblog.net",
+    "url": "https://www.datascienceblog.net",
+    "desc": "A blog about applying data science (e.g. statistical testing, data visualization, and machine learning) using R."
+  },
+  {
+    "name": "datavizf17.classes.andrewheiss.com",
+    "url": "https://datavizf17.classes.andrewheiss.com/",
+    "desc": "Business school course on data visualization by Andrew Heiss, visiting professor at Brigham Young University"
+  },
+  {
+    "name": "framingham district 2 news",
+    "url": "http://www.district2framingham.com/",
+    "desc": "Neighborhood news and events in Framingham (Mass.) District 2"
+  },
+  {
+    "name": "drizopoulos.com",
+    "url": "http://www.drizopoulos.com/",
+    "desc": "Dimitris Rizopoulos, Associate Professor of Biostatistics Erasmus University Medical Center"
+  },
+  {
+    "name": "dshkol.com",
+    "url": "https://www.dshkol.com/",
+    "desc": "Scratchpad - A personal R stats blog by Dmitry Shkolnik"
+  },
+  {
+    "name": "The easystats blog",
+    "url": "https://easystats.github.io/blog/",
+    "desc": "A blog to help newcomers and beginers harness the power of R"
+  },
+  {
+    "name": "Código R",
+    "url": "https://eliocamp.github.io/codigo-r/",
+    "desc": "Blog de R en español"
+  },
+  {
+    "name": "emmavestesson.netlify.com",
+    "url": "https://emmavestesson.netlify.com",
+    "desc": "Playing with Data - Emma Vestesson's blog"
+  },
+  {
+    "name": "enpiar.com",
+    "url": "https://enpiar.com/",
+    "desc": "Neal Richardson's blog"
+  },
+  {
+    "name": "eokodie.com",
+    "url": "https://www.eokodie.com/",
+    "desc": "Ernest Omane-Kodie's musings on the R programming language, data and visualisation"
+  },
+  {
+    "name": "Evan Odell's Blog",
+    "url": "https://evanodell.com/blog",
+    "desc": "Evan Odell's blog on politics, geography and data science."
+  },
+  {
+    "name": "ewenme.rbind.io",
+    "url": "http://ewenme.rbind.io/",
+    "desc": "Ewen Henderson's blog"
+  },
+  {
+    "name": "floresfdev.github.io",
+    "url": "https://floresfdev.github.io",
+    "desc": "Fernando Flores - Data science, software development and engineering"
+  },
+  {
+    "name": "Forwards",
+    "url": "https://forwards.github.io/",
+    "desc": "Forwards is an R Foundation taskforce on women and other under-represented groups."
+  },
+  {
+    "name": "foundinblank.io",
+    "url": "http://foundinblank.io",
+    "desc": "Adam Stone's data science and R blog"
+  },
+  {
+    "name": "From Stata to R",
+    "url": "https://from-stata-to-r.netlify.com/",
+    "desc": "Student in Economics narrating his learning of R"
+  },
+  {
+    "name": "garrickadenbuie.com",
+    "url": "https://www.garrickadenbuie.com",
+    "desc": "R and other things I've learned. Garrick Aden-Buie's webpage and blog."
+  },
+  {
+    "name": "Geosciences programming",
+    "url": "https://geo-programing.netlify.app/",
+    "desc": "A website host codes for solid earth programming (geochemistry, making maps, geophysics and so on) focus on using R and Python"
+  },
+  {
+    "name": "R & Census",
+    "url": "https://www.gl-li.com/",
+    "desc": "GL Li's personal website"
+  },
+  {
+    "name": "glhickey.com",
+    "url": "http://glhickey.com/",
+    "desc": "Graeme L. Hickey, Research Associate in Biostatistics."
+  },
+  {
+    "name": "gresch.github.io",
+    "url": "https://gresch.github.io/",
+    "desc": "A Strategy Consultant Turning into a Data Scientist."
+  },
+  {
+    "name": "guyabel.com",
+    "url": "https://guyabel.com",
+    "desc": "Guy Abel, Professor at Shanghai University. Blog on demography and R."
+  },
+  {
+    "name": "ildiczeller.com",
+    "url": "https://www.ildiczeller.com/",
+    "desc": "Ildi Czeller's blog"
+  },
+  {
+    "name": "ismayc.github.io/soc301_s2017",
+    "url": "https://ismayc.github.io/soc301_s2017/",
+    "desc": "Chester Ismay's Social Statistics Course."
+  },
+  {
+    "name": "ivelasq.rbind.io",
+    "url": "http://ivelasq.rbind.io/",
+    "desc": "Isabella Velasquez's Personal Blog, Data Analyst the Bill & Melinda Gates Foundation"
+  },
+  {
+    "name": "jechave.com",
+    "url": "https://jechave.com",
+    "desc": "Mainly focusing on analytics about my habits and things that interest me"
+  },
+  {
+    "name": "jennadallen.com",
+    "url": "https://www.jennadallen.com",
+    "desc": "R focused blog from an aspiring data scientist"
+  },
+  {
+    "name": "jenny-listman.netlify.com",
+    "url": "https://jenny-listman.netlify.com",
+    "desc": "Jenny Listman's data science project website and R blog"
+  },
+  {
+    "name": "Jeno Pal's blog",
+    "url": "https://jenopal.netlify.com/",
+    "desc": "A blog about data-related things, mainly with R"
+  },
+  {
+    "name": "jessemaegan.com",
+    "url": "https://www.jessemaegan.com",
+    "desc": "A site dedicated to helping learners develop data science skills in R"
+  },
+  {
+    "name": "Jindra Lacko's blog",
+    "url": "http://www.jla-data.net/",
+    "desc": "A blog on data, visualization and having fun with R. Mostly in English, with a Czech section."
+  },
+  {
+    "name": "JLaw's R Blog",
+    "url": "https://jlaw.netlify.app/",
+    "desc": "A blog for me (JLaw) to post about random analyses I feel like doing"
+  },
+  {
+    "name": "Regression to the Mean",
+    "url": "http://www.josepespasa.cat",
+    "desc": "Josep's blog on data analysis (and other things he learned the hard way)."
+  },
+  {
+    "name": "jozefhajnala.gitlab.io",
+    "url": "https://jozefhajnala.gitlab.io/r",
+    "desc": "Useful posts and how-tos for a more efficient R development"
+  },
+  {
+    "name": "jtimm.net",
+    "url": "https://www.jtimm.net",
+    "desc": "Jason Timm, PhD Linguist -- things corpus linguistics & geospatial in R"
+  },
+  {
+    "name": "juliasilge.com",
+    "url": "https://juliasilge.com/",
+    "desc": "Julia Silge, data scientist and software engineer at RStudio"
+  },
+  {
+    "name": "jvera.netlify.com",
+    "url": "http://jvera.netlify.com",
+    "desc": "Swimming in the Data Lake, a blog by Jose Manuel Vera"
+  },
+  {
+    "name": "jwhollister.com",
+    "url": "https://jwhollister.com",
+    "desc": "Jeff Hollister's personal blog"
+  },
+  {
+    "name": "katiescranton.com/",
+    "url": "http://www.katiescranton.com/",
+    "desc": "The blog of Katie Scranton, applied statistician"
+  },
+  {
+    "name": "kelseygonzalez.github.io",
+    "url": "https://kelseygonzalez.github.io",
+    "desc": "Kelsey Gonzalez, PhD Candidate, Sociology, University of Arizona"
+  },
+  {
+    "name": "laderast.github.io",
+    "url": "https://laderast.github.io",
+    "desc": "Personal Site of Ted Laderas, Assistant Professor/Data Science Instructor"
+  },
+  {
+    "name": "Leo Van's Blog",
+    "url": "https://leovan.me/",
+    "desc": "Leo Van (Fan Yeliang), dark data explorer."
+  },
+  {
+    "name": "livefreeordichotomize.com",
+    "url": "http://livefreeordichotomize.com/",
+    "desc": "Live Free or Dichotomize"
+  },
+  {
+    "name": "espace résidentiel dans la Zone métropolitaine de Mexico",
+    "url": "http://m2_projet_mexique.frama.io/website/",
+    "desc": "Urban study of Mexico with 95% Rstats tools, in French - Blogdown, liftr, Xaringan, R"
+  },
+  {
+    "name": "maraaverick.rbind.io",
+    "url": "https://maraaverick.rbind.io/",
+    "desc": "Mara Averick's blog"
+  },
+  {
+    "name": "Biology and bio-image analysis",
+    "url": "https://marionlouveaux.fr/",
+    "desc": "Marion Louveaux's blog about research in biology, 3D+time microscopy, bioimage analysis and data science"
+  },
+  {
+    "name": "martj42.github.io",
+    "url": "https://martj42.github.io/",
+    "desc": "Mart Jürisoo - Sports, Stats and Sports Stats, Mostly"
+  },
+  {
+    "name": "Maëlle's R blog",
+    "url": "https://masalmon.eu/",
+    "desc": "Another R blog, mostly with use cases of packages, sometimes with tips."
+  },
+  {
+    "name": "mattcraddock.com",
+    "url": "https://www.mattcraddock.com/",
+    "desc": "Time-frequency Transform - Matt Craddock's blog about cognitive neuroscience, psychology, and statistics"
+  },
+  {
+    "name": "Mike Mahoney's Personal Website",
+    "url": "https://www.mikemahoney218.com/",
+    "desc": "Blog and projects for Mike Mahoney, made via blogdown and using the hugo Academic theme"
+  },
+  {
+    "name": "Mrchypark's blog",
+    "url": "https://mrchypark.github.io/",
+    "desc": "Chanyub Park's blog on R, Docker and Text analysis in Korean"
+  },
+  {
+    "name": "mrgsolve.github.io",
+    "url": "https://mrgsolve.github.io/",
+    "desc": "Metrum Research Group's mrgsolve package for R."
+  },
+  {
+    "name": "Marie Vaugoyeau's blog",
+    "url": "https://mvaugoyeau.netlify.com",
+    "desc": "A blog about R, data analyses and statistics"
+  },
+  {
+    "name": "nickforr.com",
+    "url": "https://nickforr.com",
+    "desc": "Nick Forrester's blog (R and data science)."
+  },
+  {
+    "name": "onceupondata.com",
+    "url": "http://www.onceupondata.com",
+    "desc": "Omayma's blog"
+  },
+  {
+    "name": "p0bs",
+    "url": "http://www.p0bs.com",
+    "desc": "Robin Penfold's personal blog; the architecture of which is plagiarised from the great work of Amber Thomas"
+  },
+  {
+    "name": "Paula Andrea",
+    "url": "http://paulaandrea.rbind.io/",
+    "desc": "A personal website with love of R"
+  },
+  {
+    "name": "perswww.kuleuven.be/~u0072929",
+    "url": "https://perswww.kuleuven.be/~u0072929/",
+    "desc": "Pieter Moors, postdoctoral researcher at the GestaltReVision lab at the KU Leuven."
+  },
+  {
+    "name": "purrple.cat",
+    "url": "https://purrple.cat/",
+    "desc": "The blog of Romain François"
+  },
+  {
+    "name": "r-podcast.org",
+    "url": "https://r-podcast.org",
+    "desc": "Eric Nantz, research scientist in life sciences and creator/host of the R-Podcast."
+  },
+  {
+    "name": "revoandrie.netlify.com",
+    "url": "http://revoandrie.netlify.com/",
+    "desc": "Musings by Andrie de Vries, mostly about R, data science and machine learning"
+  },
+  {
+    "name": "rladiesirvine.org",
+    "url": "https://www.rladiesirvine.org/",
+    "desc": "R-Ladies Irvine"
+  },
+  {
+    "name": "rladiesnyc.org",
+    "url": "http://www.rladiesnyc.org/",
+    "desc": "R-Ladies New York"
+  },
+  {
+    "name": "robjhyndman.com",
+    "url": "https://robjhyndman.com/",
+    "desc": "Rob J Hyndman is Professor of Statistics at Monash University, Australia."
+  },
+  {
+    "name": "OpenGIS",
+    "url": "http://roelandtn.frama.io/",
+    "desc": "Blog about FOSS, GIS and data analysis"
+  },
+  {
+    "name": "Thomas Roh's Blog",
+    "url": "https://roh.engineering",
+    "desc": "A blog covering R, Web Development, Operations Research, Industrial Engineering, and Statistics"
+  },
+  {
+    "name": "Rahul's Personal Blog on Stats & ML",
+    "url": "https://rsangole.netlify.com",
+    "desc": "Hacking through stats & ML using R."
+  },
+  {
+    "name": "seandavi(s12)",
+    "url": "https://seandavi.github.io",
+    "desc": "Sean Davis's personal website--cancer research, bioconductor, IT, cloud, and data science"
+  },
+  {
+    "name": "selbydavid.com",
+    "url": "http://selbydavid.com/",
+    "desc": "Tea & Stats, data science with david selby"
+  },
+  {
+    "name": "shirin-glander.de",
+    "url": "https://www.shirin-glander.de",
+    "desc": "Dr Shirin Glander is a biologist turned bioinformatician turned data scientist"
+  },
+  {
+    "name": "silvia.rbind.io",
+    "url": "https://silvia.rbind.io/",
+    "desc": "Silvia Canelón: biomedical engineer/informaticist and R enthusiast, curious about all intersections of data and society."
+  },
+  {
+    "name": "simecek.xyz/blog",
+    "url": "https://simecek.github.io/shredded_code/post/",
+    "desc": "Petr Simecek's blog."
+  },
+  {
+    "name": "StatnMap",
+    "url": "https://statnmap.com/",
+    "desc": "R, models and spatial things. The blog of Sébastien Rochette"
+  },
+  {
+    "name": "statsandr.com",
+    "url": "https://www.statsandr.com/",
+    "desc": "A blog about statistics and its applications in R"
+  },
+  {
+    "name": "Surrounded by Data",
+    "url": "https://surroundedbydata.netlify.com/",
+    "desc": "Data is all around us! A blog about the story behind the data, by Veerle van Son."
+  },
+  {
+    "name": "tatjanakeco.rbind.io",
+    "url": "http://tatjanakeco.rbind.io",
+    "desc": "The blog of Tatjana Kecojevic, statistician and founder of RLadies-Manchester"
+  },
+  {
+    "name": "thedatacollective.com.au",
+    "url": "http://www.thedatacollective.com.au/",
+    "desc": "Dan Wilson, Australian Data Scientist's, blog on open data sets."
+  },
+  {
+    "name": "thelittledataset.com",
+    "url": "https://thelittledataset.com",
+    "desc": "The little dataset that could - Alex Albright's blog"
+  },
+  {
+    "name": "thisisnic.github.io",
+    "url": "https://thisisnic.github.io/",
+    "desc": "Nic Crane is an analytical developer and Data Camp course creator who loves blogging about R, Shiny, the tidyverse, and the R community."
+  },
+  {
+    "name": "thomasvanhoey.com/",
+    "url": "https://www.thomasvanhoey.com/",
+    "desc": "Personal website that touches upon linguistic issues like ideophones as well as R"
+  },
+  {
+    "name": "tylerclavelle.com",
+    "url": "https://www.tylerclavelle.com",
+    "desc": "Tyler Clavelle, environmental data scientist."
+  },
+  {
+    "name": "Visible Data",
+    "url": "http://www.visibledata.co.uk/blog/",
+    "desc": "Martin John Hadley's blog on data science, dataviz and reproducible research methods."
+  },
+  {
+    "name": "vm.nr.no",
+    "url": "http://vm.nr.no",
+    "desc": "Daily predictions of FIFA World Cup 2018"
+  },
+  {
+    "name": "WiDS Tucson",
+    "url": "https://widstucson.org/",
+    "desc": " a blogdown site (based of wowchemy and academic) for the 2021 Women in Data Science Tucson Regional Conference."
+  },
+  {
+    "name": "wrshoemaker.github.io",
+    "url": "https://wrshoemaker.github.io/",
+    "desc": "Will Shoemaker, Microbial evolution and ecology"
+  },
+  {
+    "name": "Yang's Strategy Machine",
+    "url": "https://www.yang.management",
+    "desc": "Strategic Thinking & Machine Learning by Ray Yang"
+  },
+  {
+    "name": "yihui.name",
+    "url": "https://yihui.name/",
+    "desc": "Yihui Xie, software engineer at RStudio, author of Knitr, bookdown, blogdown and others."
+  },
+  {
+    "name": "Reproducible Random Thoughts",
+    "url": "https://yonicd.netlify.com/",
+    "desc": "Applied stats and R packages"
+  },
+  {
+    "name": "znmeb.mobi",
+    "url": "https://www.znmeb.mobi/",
+    "desc": "Borasky Research Journal"
+  }
+]
