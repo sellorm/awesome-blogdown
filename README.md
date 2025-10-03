@@ -1,8 +1,10 @@
 # Awesome Blogdown
 
+As of 2025-10-03 the website associated with this project is no longer available and the project is archived. It was fun while it lasted.
+
 An awesome curated list of blogs built using [blogdown](https://github.com/rstudio/blogdown) or [hugodown](https://hugodown.r-lib.org).
 
-You'll find the Awesome Blogdown website at [awesome-blogdown.com](https://awesome-blogdown.com).
+~You'll find the Awesome Blogdown website at awesome-blogdown.com.~
 
 
 ## About Blogdown and hugodown
@@ -34,7 +36,7 @@ Have a look at the some of the other files in the `json` directory to get an ide
 
 ## Using the Awesome Blogdown data
 
-The json file containing all the data is served from [http://awesome-blogdown.com/sites.json](http://awesome-blogdown.com/sites.json).
+~The json file containing all the data is served from http://awesome-blogdown.com/sites.json.~
 
 If you do end up using it for something, let me know, I'd love to hear about it!
 
@@ -48,5 +50,5 @@ Site hosting is handled by Netlify.
 
 ## License
 
-MIT  © [Mark Sellors](http://sellorm.com)
+MIT  © [Mark Sellors](https://sellorm.com)
 
